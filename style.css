@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("img/cage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+.shadow{
+    width: 100%;
+    height: 200vh;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+
+.title{
+    background-color:#262626;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title img{
+    width: 10%;
+    margin-left: 2%;
+}
+
+
+
+.text{
+    width: 50%;
+    margin:5%
+}
+
+button{
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: red;
+    margin: 0 5% 5% 5%;
+    font-size: 30px;
+}
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap:20px;
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle .btn2{
+    margin-top: 10%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+}
+
+.card img{
+    width: 80%;
+    border-radius: 400px;
+}
+
+
+
+
+.design{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.line{
+
+    border: 1px solid red;
+    width: 100%;
+    padding: 0px 70px 0 70px;
+    /* height: 100%; */
+    margin: 5%;
+}
+
+.vs{
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 0px;
+}
+
+
+
+.suma{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.suma p{
+    padding: 10px;
+    background-color: green;
+    color: red;
+    margin-left:5%;
+}
